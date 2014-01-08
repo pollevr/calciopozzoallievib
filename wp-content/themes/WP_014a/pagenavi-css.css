@@ -1,0 +1,7 @@
+.wp-pagenavi a,.wp-pagenavi a:link{text-decoration:none;border:1px solid #39312E;color:#4A3C18;background-color:#E7DFD6;margin:2px;padding:2px 6px;}
+.wp-pagenavi a:visited{text-decoration:none;border:1px solid #4A413C;color:#4A3C18;background-color:#E7DFD6;margin:2px;padding:2px 6px;}
+.wp-pagenavi a:hover{border:1px solid #00558F;color:#4A3C18;background-color:#A59A84;}
+.wp-pagenavi a:active{text-decoration:none;border:1px solid #0069AF;color:#333;background-color:#A59A84;margin:2px;padding:2px 6px;}
+.wp-pagenavi span.pages{color:#4A3C18;border:1px solid #39312E;background-color:#E7DFD6;margin:2px;padding:2px 6px;}
+.wp-pagenavi span.current{font-weight:400;border:1px solid #00558F;color:#4A3C18;background-color:#A59A84;margin:2px;padding:2px 6px;}
+.wp-pagenavi span.extend{border:1px solid #4A413C;color:#4A3C18;background-color:#A59A84;margin:2px;padding:2px 6px;}

@@ -1,0 +1,195 @@
+/* Begin Comments*/
+
+.commentlist {
+padding: 0px;
+margin: 0px 0px 0px 0px;
+width: 515px;
+list-style-image: none;
+list-style-type: none;
+float: left;
+}
+
+.commentlist li {
+	font-weight: bold;
+	width: 515px;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	list-style-image: none;
+	list-style-type: none;
+	float: left;
+    border: 1px solid #000;
+    float: right;
+    margin-bottom: 20px;
+	}
+
+.commentlist li div {
+	width: 515px;
+	display: block;
+	margin: 0px;
+	padding: 10px;
+	float: left;
+}
+
+.commentlist li .avatar {
+	float: left;
+	border: 1px solid #eee;
+	padding: 2px;
+	border: 5px solid #3E4C49;
+
+	}
+
+.commentlist cite {
+	font-size: 18px;
+	float: left;
+	font-style: normal;
+	margin-left: 10px;
+	margin-right: 6px;
+	margin-top: 5px;
+	font-weight: normal;
+	}
+
+.says {
+display: none;
+}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	display: block;
+	float: left;
+	width: 90%;
+	margin-left: 3%;
+	}
+
+
+#commentform p {
+clear: both;
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentlist .children li {
+	width: 90%;
+	display: block;
+	margin: 0px;
+	border: 1px solid #262D2B;
+	overflow: hidden;
+}
+
+.commentlist .children li div {
+width: 97%;
+padding: 3%;
+}
+
+.commentlist .commentmetadata {
+	font-weight: normal;
+	float: left;
+	margin: 5px 0px 0px 0px;
+	display: block;
+	clear: both;
+	width: 90%;
+	margin-left: 3%;
+	}
+
+.commentlist .vcard, .commentlist .children .comment-author, .commentlist .children .vcard, .commentlist .commentmetadata, .commentlist .children .comment-author, .commentlist .children .comment-meta   {
+	width: 100%;
+	padding: 0px !important;
+}
+
+.commentlist .reply, .commentlist .children .reply {
+	float: right;
+	width: 54px;
+	height: 22px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-right: 10px;
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.commentlist .reply a:link, .commentlist .reply a:hover, .commentlist .children .reply a:link, .commentlist .children .reply a:hover {
+	width: 39px;
+	height: 17px;
+	display: block;
+	color: #000;
+	font-size: 8px;
+	text-transform: lowercase;
+	font-weight: normal;
+	padding: 5px 0px 0px 15px;
+	letter-spacing: 1px;    background: #6A8F31;
+}
+
+.commentlist .children li {
+padding-bottom: 10px;
+}
+
+.commentlist .children li ul li {
+padding-bottom: 10px;
+}
+
+#respond {
+margin-top: 20px;
+float: left;
+background-image: none;
+}
+
+.commentlist #respond h3, .commentlist #respond a {
+margin-left: 28px;
+}
+
+#comments {
+line-height: 30px;
+}
+
+.children {
+clear: both;
+}
+
+.children .commentmetadata, .children .vcard  {
+	background-image: none;
+}
+
+.children textarea {
+width: 90% !important;
+}
+
+.children input {
+width: 80% !important;
+}
+
+#cancel-comment-reply-link {
+display: block;
+width: 144px;
+height: 21px;
+padding: 5px 0px 0px 23px;
+font-weight: normal;
+color: #84878E;
+font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+#respond div {
+background-image: none;
+}
+
+#submit {
+width: 120px !important;
+}
+* html .commentlist, * html .commentlist li, * html .commentlist li div {
+  width: 500px;
+}
+textarea#comment {
+  width: 515px;
+}
+
+
+/* End Comments */

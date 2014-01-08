@@ -1,0 +1,102 @@
+.clear {
+  clear: both;
+}
+.feat-cat-entry  {
+	background-color: #F7F7F7;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 3px;
+	display: block;
+    width: 236px;
+    float: left;
+}
+.fcbot {
+  background: url(../images/fcbot.png) no-repeat scroll bottom;
+    padding-bottom: 10px;
+}
+.feat-cat-entry h3  {
+    background: url(../images/fch3.jpg) no-repeat;
+    padding: 4px 7px 7px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial Black;
+    font-size: 20px;
+}
+.feat-cat-entry h4 a{
+	color: #96c93c;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.feat-cat-meta {
+	clear: both;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	height: auto;
+	width: auto;
+	display: block;
+	margin: 0px;
+    border-bottom: 1px dotted #4b4420;
+}
+.feat-cat-img  {
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #D5D5D5;
+}
+.feat-cat-img img  {
+	border: 2px solid #E6E6E6;
+}
+.feat-cat-meta h1  {
+	font-size: 1em;
+	color: #000000;
+	text-decoration: none;
+	padding: 0px;
+	width: 85%;
+	height: auto;
+	float: left;
+	display: block;
+	line-height: 25px;
+	margin: 0px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.feat-cat-meta h1 a  {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.feat-cat-meta h1 a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #2B89B7;
+
+}
+.feat-cat-date  {
+	font-size: 12px;
+	text-decoration: none;
+	color: #333333;
+	text-transform: capitalize;
+	display: block;
+	padding: 0px;
+	height: auto;
+	line-height: 22px;
+	margin: 0px;
+	float: left;
+	width: 80%;
+}
+.feat-cat-date a {
+	color: #333333;
+	text-decoration: none;
+}
+.feat-cat-date a:hover  {
+	text-decoration: underline;
+}
+.clearfix {
+  clear: both;
+}
+

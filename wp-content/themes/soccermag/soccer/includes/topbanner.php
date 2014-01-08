@@ -1,0 +1,1 @@
+<a href="<?php $hlink = get_option('swt_link'); echo $hlink; ?>"><img src="<?php $hbanner = get_option('swt_hbanner'); echo $hbanner; ?>" class="adv" alt="advertisement" /></a>  

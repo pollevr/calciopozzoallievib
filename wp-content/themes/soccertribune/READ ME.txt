@@ -1,0 +1,36 @@
+Installation
+============
+
+1. Extract theme.zip and upload the theme folder via FTP to your wp-content/themes/ directory, or login into wordpress administration - Dashboard > Appearance > Add New Themes > Upload
+2. Go to your WordPress Admin Dashboard > Appearance > Themes and select this theme to activate.
+3. Once activated, you're ready to use it.
+
+Theme options
+============
+To have an images in the slider, you just add a custom field, type slide and leave link to the image. Or check howtoslide.png in themefolder/images/, visual is better :)
+If you want to have small thumbnails in mygallery plugin, you have to type thumbnail in custom field and leave link to the image.
+
+But, first of first, you should select sliding category via theme options and number of slides. 
+
+Post thumbnails - how to add images into posts
+===============================
+This theme supports post thumbnails - it means that images are automatically resized! We encourage you to use this option! 
+You also can adjust image size according to your wishes. Just open up index.php, find "the_post_thumbnail(array(250,250), array("class" => "alignleft post_thumbnail")"
+and change 250, 250 to whatever you like. If you want images to be aligned right or centered, just change alignleft to alignright or aligncenter and save. 
+Classic way of inserting images is still working with this theme, but featured categories option - IS NOT if theme has it! It's set to pull post thumbnails images where images are inserted as thumbnails, not on classic way.
+
+How to insert image as post thumbnail? For example, click on add new post. 
+On the bottom right side under categories you'll see a Post thumbnail option, and then click on Set thumbnail.
+Upload the image, and then click on Media Library. Click show on image you've just uploaded, and click "Use as thumbnail" option. Thats it!
+You dont have to touch anything other (alignment, sizes, nothing!)!
+
+
+
+Support
+========
+If you have any problem or found some bugs upon using this WordPress theme, feel free to post a comment on http://www.simplewpthemes.com.
+
+
+
+All best, 
+http://www.simplewpthemes.com

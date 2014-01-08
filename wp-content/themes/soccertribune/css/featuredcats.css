@@ -1,0 +1,51 @@
+.feat-cat-entry  {
+	display: block;
+	clear: both;
+	height: auto;
+	width: auto;
+    border: 1px solid #bebebe;
+    margin-bottom: 10px;
+}
+.feat-cat-entry h3  {
+	margin: 0px;
+	clear: both;
+	display: block;
+	height: auto;
+	width: auto;
+	position: relative;
+	letter-spacing: 1px;
+    background: url(../images/fch3.png) repeat-x;
+    color: #699e3f;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 1%;
+}
+
+.feat-cat-meta {
+	clear: both;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	height: auto;
+	width: auto;
+	display: block;
+	margin: 0px;
+    background: url(../images/fcsep.png) no-repeat scroll bottom;
+}
+.feat-cat-img  {
+	float: left;
+	margin-right: 5px;
+}
+.feat-cat-img img  {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.clearfix {
+  clear: both;
+}

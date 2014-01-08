@@ -1,0 +1,444 @@
+/*
+Theme Name: Soccer
+Theme URI: http://www.simplewpthemes.com
+Description: Theme Description
+Version: 1.0
+Author: sin2384
+Author URI: http://www.simplewpthemes.com
+Tags: green, white, fixed width, three columns, widgetized
+*/
+@import url("css/comments.css");
+@import url("css/reset.css");
+@import url("css/superfish.css");
+@import url("css/featuredcats.css");
+@import url("css/pagenavi-css.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+/***************LINKS*************************/
+
+a:link, a:visited {
+  color: #77b032;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #77b032;
+}
+/***************END LINKS*************************/
+
+html body {
+  background: url(images/bg.jpg);
+  font-size: 12px;
+  font-family: Trebuchet MS;
+}
+
+/***************LAYOUT*************************/
+
+#mainwrap {
+  margin: 0 auto;
+  width: 960px;
+  background: #1b1a1a;
+}
+#header {
+  width: 960px;
+  height: 136px;
+  background: url(images/header.jpg) repeat-x;
+}
+#blogtitle {
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+  position: relative;
+  top: 16px;
+  left: 15px;
+  background: url(images/logo.jpg) no-repeat;
+  height: 94px;
+  padding-left: 90px;
+}
+#heading {
+  color: #77b032;
+}
+
+.description {
+  text-transform: none;
+  margin-left: 7px;
+}
+
+/* Twitter, RSS, Email */
+
+#topsoc {
+  float: right;
+  position: relative;
+  top: 10px;
+
+}
+.tweet, .rss, .mail {
+  float: left;
+  margin-left: 14px;
+  margin-right: 5px;
+  display: inline;
+}
+
+/*End Twitter, RSS, Email */
+/***************NAVIGATION*************************/
+
+ul#nav {
+  clear: both;
+  margin-top: -41px;
+  height: 30px;
+  float: right;
+}
+*+html ul#nav {
+  margin-top: 10px;
+}
+
+ul#nav li {
+  float: left;
+  background: url(images/navleft.gif) no-repeat scroll center left;
+  margin: 2px;
+}
+ul#nav li li {
+  display: none;
+}
+
+ul#nav li a {
+  float: left;
+  display: block;
+  color: #222222;
+  font-weight: bold;
+  display: block;
+  padding: 10px 12px 10px 12px ;
+  background: url(images/navright.jpg) no-repeat scroll center right;
+}
+ul#nav li li {
+  display: none;
+}
+
+
+ul#nav li.current_page_item a {
+  background: url(images/navrighta.gif) no-repeat scroll center right;
+  color: #77b032;
+}
+ul#nav li.current_page_item {
+  background: url(images/navlefta.gif) no-repeat scroll center left;
+}
+ul#nav li:hover {
+  background: url(images/navlefth.gif) no-repeat scroll center left;
+}
+ul#nav li a:hover {
+  background: url(images/navrighth.gif) no-repeat scroll center right;
+  color: #4e5c25;
+}
+
+/***************NAVIGATION*************************/
+#upcontent {
+  width: 958px;
+  clear: both;
+  margin: 0 auto;
+  background: #77b032 url(images/upcontenttop.png) no-repeat scroll top center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.conbot {
+  background: url(images/upcontentbot.png) no-repeat scroll bottom center;
+  overflow: hidden;
+}
+
+
+#featured {
+  margin: 10px;
+  float: left !important;
+  display: inline;
+}
+*+html #featured {
+  padding-bottom: 10px;
+}
+
+
+/* ADVERT */
+
+.advert{
+ float: right;
+ padding:5px;
+ height: 270px;
+ width: 270px;
+ margin: 10px 10px 10px 0;
+ display: inline;
+ background: #62642f;
+ }
+
+.advert img{
+ padding:5px;
+ border:none;
+ margin:0;
+ float: left;
+ }
+
+ /* END ADVERT */
+
+#searchform {
+  float: right;
+  margin-top: 8px;
+}
+
+
+#s {
+  width: 235px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  background: #fff url(images/search.gif) no-repeat scroll right;
+  border: none;
+  height: 19px;
+}
+*+html #s {
+  margin-top: 94px;
+  position: relative;
+  left: 100px;
+}
+
+
+#contentwrap {
+  float: left;
+  width: 560px;
+  background: #fff url(images/cwrapbot.gif) no-repeat scroll bottom;
+  display: inline;
+  margin: 0 10px 10px 3px;
+}
+.cwraptop {
+  background: url(images/cwraptop.jpg) no-repeat scroll top left;
+  padding-top: 60px;
+  overflow: hidden;
+}
+*+html .cwraptop {
+  padding-bottom: 60px;
+}
+
+
+#sidebar {
+  float: left;
+  width: 185px;
+}
+#sidebar2 {
+  float: right;
+  width: 185px;
+  margin-right: 9px;
+  display: inline;
+}
+#subbar{
+  float: right;
+  width: 373px;
+}
+*+html #subbar {
+  margin-right: 12px;
+}
+
+
+#featured-video, #aboutus, #popular {
+  float: right;
+  margin-right: 12px;
+  display: inline;
+  background: #fff url(images/videobot.png) no-repeat scroll bottom;
+  width: 373px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+#featured-video h3, #aboutus h3, #popular h3 {
+  color: #fff;
+  background: url(images/fvh3.jpg) no-repeat;
+  padding: 12px;
+}
+.aboutimage {
+  float: left;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin: 0px 5px 5px 5px;
+}
+#popular li {
+  list-style: none;
+}
+
+
+.padd {
+  margin-left: 9px;
+}
+
+#featured-category {
+  width: 960px;
+  float: left;
+}
+*+html #featured-category {
+  margin-bottom: 10px;
+}
+
+
+#footer {
+  width: 954px;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+  height: 20px;
+  background: #000 url(images/footer.jpg) repeat-x;
+  color: #fff;
+  line-height: 25px;
+  overflow: hidden;
+}
+.sponsors {
+  text-align: center;
+}
+
+
+
+.inside {
+  padding: 20px;
+}
+/***************END LAYOUT*************************/
+
+/***************WP STYLES*************************/
+
+#sidebar h3, #sidebar2 h3 {
+  padding: 5px 5px 5px 25px;
+  font-size: 14px;
+  color: #fff;
+  background: url(images/h3.jpg) no-repeat;
+}
+
+.side-widget, .widget {
+  width: 185px;
+  background: #fff url(images/widgetbot.gif) no-repeat scroll bottom;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.side-widget ul li, .widget ul li {
+  line-height: 20px;
+  padding: 0 5px 0 30px;
+  background: url(images/ball.jpg) no-repeat scroll 10px 5px;
+}
+.side-widget a, .side-widget a:visited {
+  font-weight: bold;
+}
+.side-widget a:hover {
+  color: #ccc;
+}
+
+
+.side-widget ul li ul li {
+
+}
+
+
+
+/***************POST STYLES*************************/
+.post h2 {
+  margin-bottom: 10px;
+}
+
+.post h2 a, post h2 a:visited {
+  color: #000;
+}
+
+.post h2 a:hover {
+
+}
+
+.meta {
+}
+
+.cat {
+
+}
+
+.author, .date {
+  color: #626262;
+}
+.edit {
+
+}
+
+.comm {
+
+}
+
+
+.postmetadata {
+  margin-top: 15px;
+  background: url(images/meta.jpg) no-repeat;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.postmetadata a{
+  color: #98c93c;
+}
+
+
+.post {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.entry {
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.entry li {
+  margin-left: 20px;
+  list-style: circle;
+}
+
+.entry ol li {
+  list-style: decimal;
+}
+
+blockquote {
+  border-left: 10px solid #666666;
+  margin-left: 20px;
+}
+
+blockquote p {
+  padding: 10px;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 5px 5px 0px;
+}
+
+.alignright {
+  float: right;
+  margin: 0 5px 5px 5px;
+}
+/***************END POST STYLES*************************/
+#calendar_wrap {
+  text-align: center;
+}
+
+caption {
+  background: #6A8F31;
+  width: 100%;
+}
+
+#wp-calendar {
+
+}
+
+th {
+  padding: 9px;
+}
+
+td a:link {
+  background: #6A8F31;
+  padding: 1px 6px;
+  color: #fff;
+  line-height: 29px;
+}
+
+/***************END WP STYLES*************************/
+
+

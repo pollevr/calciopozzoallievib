@@ -1,0 +1,148 @@
+body > div {
+    
+    Background: #CCC;
+    height: 100px;
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.ticker-wrapper.has-js {
+        margin: 10px 40px 15px 40px;
+        // height: 80px; Looks a little odd but no chance of overflow
+        width: 100%;
+        display: block;
+        background-color: #FFF;
+        border: 1px solid #000;
+        -moz-box-shadow: inset 2px 2px 3px hsla(0,0%,0%, 0.15), 0 1px 0 hsla(0, 0%, 100%, 0.6);
+        -webkit-box-shadow: inset 2px 2px 3px hsla(0,0%,0%, 0.15), 0 1px 0 hsla(0, 0%, 100%, 0.6);
+    }
+    .ticker { width: 100%; }
+    .ticker-title,
+    .ticker-swipe,
+    .ticker-swipe span { display: none; } // Display none still doesn't shift everything left.
+    .ticker-content:focus { /* none; */ }
+    
+    .ticker-content {
+        color: #000;
+        margin: 0 3.5em 0 0; padding: 10px;
+        // background-color: #FFF;
+        font-size: .875em; line-height: 1.25em; /* 20px line height ÷ 14px font-size */
+    }
+    .no-js-news {
+        padding: 10px 0 0 45px; 
+        color: #FFF;
+    }
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* Ticker Styling */
+    
+    .ticker-wrapper.has-js {
+        margin: 10px 0 10px 40px;
+        height: 32px;
+        display: block;
+    }
+    .ticker {
+        width: 100%;
+        height: 30px;
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .ticker-content {
+        margin: 0; padding: 10px;
+        position: absolute; left: 0!important; /* Overide js setting? */
+        overflow: hidden; white-space: nowrap;
+        line-height: .85em;
+}
+        
+    .ticker-content a { }
+    .ticker-content a:hover { }
+    
+    .ticker-swipe {
+        margin-top: 3px; /* Margin for inner shadow */
+        padding-top: 5px; /* remove 3px due to margin */
+        position: absolute;
+        left: 0!important; top: 0; /* Overide js setting? */
+        background-color: #FFF;
+        display: block;
+        width: 800px; height: 23px; 
+    }
+    .ticker-swipe span {
+        margin-left: 1px;
+        background-color: #FFF;
+        border-bottom: 1px solid #1F527B;
+        height: 12px; width: 7px;
+        display: block;
+    }
+    .ticker-controls {
+        padding: 0;
+        list-style-type: none;
+        float: left;
+    }
+    .ticker-controls li {
+        padding: 0;
+        margin-left: 5px;
+        float: left;
+        cursor: pointer;
+        height: 16px;
+        width: 16px;
+        display: block;
+    }
+    .ticker-controls li.jnt-play-pause {
+        /* background-image: url('../images/controls.png'); */
+        background-position: 32px 16px;
+    }
+    .ticker-controls li.jnt-play-pause.over {
+        background-position: 32px 32px;
+    }
+    .ticker-controls li.jnt-play-pause.down {
+        background-position: 32px 0;
+    }
+    .ticker-controls li.jnt-play-pause.paused {
+        /* background-image: url('@{base-url}/controls.png'); */ 
+        background-position: 48px 16px;
+    }
+    .ticker-controls li.jnt-play-pause.paused.over {
+        background-position: 48px 32px;
+    }
+    .ticker-controls li.jnt-play-pause.paused.down {
+        background-position: 48px 0;
+    }
+    .ticker-controls li.jnt-prev {
+        /* background-image: url('@{base-url}/controls.png'); */
+        background-position: 0 16px;        
+    }
+    .ticker-controls li.jnt-prev.over {
+        background-position: 0 32px;        
+    }
+    .ticker-controls li.jnt-prev.down {
+        background-position: 0 0;        
+    }
+    .ticker-controls li.jnt-next {
+        /* background-image: url('@{base-url}/controls.png'); */   
+        background-position: 16px 16px;    
+    }
+    .ticker-controls li.jnt-next.over {
+        background-position: 16px 32px;    
+    }
+    .ticker-controls li.jnt-next.down {    
+        background-position: 16px 0px;    
+    }
+    .js-hidden {
+        display: none;
+    }
+    .no-js-news {
+        padding: 10px 0 0 45px; 
+        color: #FFF;
+    }
+    
+/* @end */
+
+}

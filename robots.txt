@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/leaguemanager
+Disallow: /comments/feed/
+Disallow: /membri/calciopozzoallievib/wp-content/plugins/leaguemanager
+
+Sitemap: http://www.calciopozzoallievib.altervista.org/sitemap.xml.gz
+
+
+
+
+
+
+

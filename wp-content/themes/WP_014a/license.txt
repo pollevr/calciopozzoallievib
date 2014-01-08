@@ -1,0 +1,32 @@
+WP_012k © Copyright 2009, WP Spider.
+
+***********************************
+Please read this license carefully before using WP_012k.
+By using this theme, you are bound to the terms of this license.
+***********************************
+
+
+***********************************
+License
+***********************************
+
+The theme comes with Creative Commons 3.0 Sharealike unported license. 
+
+You have a license to use this wordpress theme for commercial or personal sites with the following exceptions: 
+
+a. You are ALLOWED to use any number of YOUR sites or for your clients.
+b. You are ALLOWED to customize this theme for your own projects or for your clients.
+c. You MUST KEEP THE CREDITS in the footer AS IS.
+d. You SHOULD NOT sell these, pass them off as your own, redistribute them in part or in whole, or use with pornography, x-rated materials, or anything illegal.
+e. You SHOULD NOT sell, lease, sublicense, or otherwise assign any rights, duties or obligations under this agreement, in whole or in part, to any person or entity.
+
+If you do not agree with these terms, don’t use them. Simple as that. :-)
+
+Disclaimer:
+This wordpress theme is provided "AS IS" without any warranty.
+
+Theme support:
+We provide limited amount of support for this theme via our website. If you find any issues with the theme please post as a comment in respective post in our website wpspider.com
+
+Theme Footer links removal:
+If you wish to remove footer credits please contact us via our website.
